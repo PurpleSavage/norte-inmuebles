@@ -53,8 +53,7 @@ export default function Testimonials() {
               </div>
             </div>
             <p className='px-2'>
-              Gracias a Norte Inmuebles vendí mi departamento en tiempo récord. 
-              Se encargaron de todo el proceso, ¡100% recomendados!
+              Un servicio de primera. Su equipo de marketing hizo que mi propiedad tuviera mucha visibilidad y se vendió rápido.
             </p>
           </div>
 
@@ -76,8 +75,7 @@ export default function Testimonials() {
               </div>
             </div>
             <p className='px-2'>
-              Gracias a Norte Inmuebles vendí mi departamento en tiempo récord. 
-              Se encargaron de todo el proceso, ¡100% recomendados!
+              Me guiaron desde el primer día hasta la firma del contrato. Sin su ayuda, vender mi casa habría sido un dolor de cabeza.
             </p>
           </div>
           <div className={`${style.item} ${style.item4} space-y-6 py-4 shadow-xl`}>
@@ -97,8 +95,7 @@ export default function Testimonials() {
               </div>
             </div>
             <p className='px-2'>
-              Gracias a Norte Inmuebles vendí mi departamento en tiempo récord. 
-              Se encargaron de todo el proceso, ¡100% recomendados!
+              Excelente agencia. No solo promocionaron mi inmueble, sino que también me ayudaron con todos los trámites legales.
             </p>
           </div>
 
@@ -121,8 +118,7 @@ export default function Testimonials() {
               </div>
             </div>
             <p className='px-2'>
-              Gracias a Norte Inmuebles vendí mi departamento en tiempo récord. 
-              Se encargaron de todo el proceso, ¡100% recomendados!
+              Muy profesionales y atentos en cada paso. Gracias a ellos, vendí mi departamento sin preocupaciones
             </p>
           </div>
 
@@ -145,8 +141,7 @@ export default function Testimonials() {
               </div>
             </div>
             <p className='px-2'>
-              Gracias a Norte Inmuebles vendí mi departamento en tiempo récord. 
-              Se encargaron de todo el proceso, ¡100% recomendados!
+              Lo mejor de Norte Inmuebles es su transparencia y compromiso. En pocos meses logré vender mi propiedad sin complicaciones.
             </p>
           </div>
 
@@ -168,8 +163,7 @@ export default function Testimonials() {
               </div>
             </div>
             <p className='px-2'>
-              Gracias a Norte Inmuebles vendí mi departamento en tiempo récord. 
-              Se encargaron de todo el proceso, ¡100% recomendados!
+              Nunca imaginé que vender un inmueble fuera tan fácil. Me asesoraron en todo momento y lograron la mejor oferta para mí.
             </p>
           </div>
 
@@ -192,8 +186,7 @@ export default function Testimonials() {
               </div>
             </div>
             <p className='px-2'>
-              Gracias a Norte Inmuebles vendí mi departamento en tiempo récord. 
-              Se encargaron de todo el proceso, ¡100% recomendados!
+              Gran equipo de profesionales. La publicidad que hicieron de mi propiedad fue excelente y el proceso de venta muy ágil.
             </p>
           </div>
         </div>
