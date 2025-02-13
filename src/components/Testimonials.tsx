@@ -87,7 +87,7 @@ export default function Testimonials() {
                   width={50}
                   height={40}
                   alt='phot0 profile sectio ntestimonials'
-                  src='/Kenet.jpg'
+                  src='/kenet.jpg'
                   className='rounded-full w-full h-full'
                 />
               </div>
