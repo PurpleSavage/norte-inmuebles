@@ -1,0 +1,25 @@
+.main{
+    background-image: url('/header1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background:linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.6));
+}
+.glassEffect {
+    backdrop-filter: blur(4px) saturate(72%);
+    -webkit-backdrop-filter: blur(4px) saturate(72%);
+    background-color: rgba(17, 25, 40, 0.18);
+    
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.degraded{
+    background: #ccc;
+ 
+    background: linear-gradient(90deg,#eff1ff,#c2410c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;   
+    background-clip: text; 
+    
+}

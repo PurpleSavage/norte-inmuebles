@@ -1,0 +1,62 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 15px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    background-image: url('/audiovisual-img.jpg');
+    background-position: 40% 30%;
+    background-size: cover;
+}
+
+.div12 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    background-image: url('/asesoramiento-img.jpg');
+    background-size: cover;
+}
+
+.div14 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-row-start: 5;
+    background-image: url('/hand-shake.jpg');
+    background-size: cover;
+}
+
+.div15 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    background-image: url('/legal-assurance.jpg');
+    background-size: cover;
+}
+
+
+.overlay{
+    background:linear-gradient(90deg, rgba(0, 0, 0,.8), rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5));
+}
+
+.metallicGradient{
+    background: radial-gradient(128% 107% at 0% 0%, #292929 0%, rgb(0, 0, 0) 77.61472409909909%);
+}
+
+
+
+@media (max-width: 768px) {
+    .parent {
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-rows: auto; /* Altura automática según contenido */
+    }
+
+    .div1, .div12, .div14, .div15 {
+        grid-column: span 1 / span 1; /* Ocupar toda la fila */
+        grid-row: auto; /* Dejar que se acomode automáticamente */
+    }
+}
